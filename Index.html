@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Styles.css" rel="stylesheet">
+  <title>Calculator Project</title>
+  <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Let's Calculate something!</h1>
+  <div class="grid-container">
+    <input type="text" name="display" id="display">
+    <input type="button" value="7" id="seven" onclick="valor(document.getElementById('seven').value)">
+    <input type="button" value="8" id="eight" onclick="valor(document.getElementById('eight').value)">
+    <input type="button" value="9" id="nine" onclick="valor(document.getElementById('nine').value)">
+    <input type="button" value="+" id="plus" onclick="valor(document.getElementById('plus').value)">
+    <input type="button" value="4" id="four" onclick="valor(document.getElementById('four').value)">
+    <input type="button" value="5" id="five" onclick="valor(document.getElementById('five').value)">
+    <input type="button" value="6" id="six" onclick="valor(document.getElementById('six').value)">
+    <input type="button" value="-" id="minus" onclick="valor(document.getElementById('minus').value)">
+    <input type="button" value="1" id="one" onclick="valor(document.getElementById('one').value)">
+    <input type="button" value="2" id="two" onclick="valor(document.getElementById('two').value)">
+    <input type="button" value="3" id="three" onclick="valor(document.getElementById('three').value)">
+    <input type="button" value="*" id="times" onclick="valor(document.getElementById('times').value)">
+    <input type="button" value="." id="dot" onclick="valor(document.getElementById('dot').value)">
+    <input type="button" value="0" id="zero" onclick="valor(document.getElementById('zero').value)">
+    <input type="button" value="/" id="divided" onclick="valor(document.getElementById('divided').value)">
+    <input type="button" value="%" id="modulo" onclick="valor(document.getElementById('modulo').value)">
+    <input type="button" value="=" id="equals" onclick="calculateResult()">
+    <input type="button" value="C" id="clear" onclick="delDisplay()">
+
+  </div>
+  <script src="Functions.js"></script>
+  <footer>
+    <div class=”footer-content”>
+      <h3>Miguel Ureña</h3><br>
+      <p>Coded with love for freeCodeCamp, 2023.</p><br>
+  </div>
+  </footer>
+</body>
+
+</html>
